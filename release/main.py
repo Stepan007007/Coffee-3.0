@@ -1,8 +1,8 @@
 from PyQt6.QtWidgets import QWidget, QApplication, QTableWidgetItem, QDialog, QLineEdit, QPushButton
 from UI import dialog_ui, main_ui
 import sqlite3
-from PyQt6 import uic
 import sys
+
 
 class Dialog(QDialog, dialog_ui.Ui_Dialog):
     def __init__(self, dicters):
